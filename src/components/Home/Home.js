@@ -1,20 +1,32 @@
 import React from 'react';
 import './Home.css'; // Import CSS for styling
+import Resume from '../../Files/VenkataNarendra.pdf'
+import { Bio } from '../../Data';
 
 const Home = () => {
+  const handleDownload = () => {
+    const anchor = document.createElement('a');
+    anchor.href = Resume;
+    anchor.download = 'VenkataNarendra.pdf';
+    anchor.click();
+  };
+
+  const handleEmail = () => {
+    const emailAddress =Bio?.Email ;
+    window.location.href = `mailto:${emailAddress}`;
+  };
+
   return (
     <section className="header-section" id="home">
       <div className="container">
         <div className="intro-text">
-          <h1 className="heading">G.VENKATA NARENDRA</h1>
-          <p className="sub-heading">Experienced developer with 2+ years of expertise in Node.js, React.js, and MongoDB. Known
-for building scalable web apps and fixing bugs with ease. Committed to delivering top-quality
-code and always learning.</p>
+          <h1 className="heading">{Bio.Name}</h1>
+          <p className="sub-heading">{Bio?.Bio}</p>
           <div className="buttons">
-            <button className="btn btn-primary">
+            <button className="btn1 btn-primary" onClick={handleDownload}>
               Download Resume
             </button>
-            <button className="btn btn-secondary">
+            <button className="btn1 btn-secondary" onClick={handleEmail}>
               Contact Me
             </button>
           </div>

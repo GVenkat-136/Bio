@@ -5,7 +5,7 @@
    width: 100%;
    max-width: 1200px; /* Adjust max-width as needed */
    margin: 0 auto;
-   padding: 0 20px;
+   padding: 0 40px;
  }
 
 
@@ -20,7 +20,7 @@
 .skills-container {
   display: flex;
   flex-wrap: wrap; /* Wrap skills to the next line if container width is exceeded */
-  gap: 20px; /* Adjust gap between skills */
+  gap: 5rem; /* Adjust gap between skills */
   justify-content: center; /* Center align skills horizontally */
 }
 
