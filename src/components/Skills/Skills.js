@@ -4,6 +4,7 @@ import { skillList } from '../../Data';
 
 const Skills = () => {
   return (
+  <div id='skills_Section'>
     <div className="Skills_container mt-5" id="skills">
       <h2 className="section-title">Skills</h2>
       <div className="skills-container">
@@ -15,6 +16,7 @@ const Skills = () => {
         ))}
       </div>
     </div>
+  </div>
   );
 };
 

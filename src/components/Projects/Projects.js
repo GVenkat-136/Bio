@@ -25,7 +25,7 @@ const Projects = () => {
                     <span key={idx} className="badge bg-secondary me-1">{tech}</span>
                   ))}
                 </div>
-                <a href={project.link} className="btn btn-primary1 mt-3">View Project</a>
+                <a href={project.link} className="btn btn-primary1 mt-3" target='blank'>View Project</a>
               </div>
             </div>
           </div>

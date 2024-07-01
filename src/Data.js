@@ -8,30 +8,21 @@ export const projectList = [
        'Used AWS Lambda and Redis for scalability: Implemented serverless functions and managed real-time sessions.',
        'Implemented secure authentication with JWT and MongoDB. Ensured secure logins and data storage.'
      ],
-     technologies: ["React", "Node", "Lambda", "Redis", "Redux", "Express", "Socket.io"],
-     link: "https://oconnect.ai"
+     technologies: ["React", "NodeJs", "Lambda", "Redis", "Redux", "ExpressJS", "Socket.io","Mongodb","Mysql"],
+     link: "https://onpassive.com"
    },
    {
-     title: "Project Two",
-     description: "This is a description for project two. It involves working with Node.js and Express.",
+     title: "OPAL",
+     description: "Developed OPAL facilitating seamless communication and task management",
      points: [
-       "Server-side rendering with Express.",
-       "API development.",
-       "Deployed on Heroku."
+       "Implemented real-time chat features using Socket.IO, enhancing team communication.",
+       "Designed and developed the backend RESTful APIs using Node.js and Express for data exchange.",
+       "Integrated MongoDB for efficient data storage and retrieval, ensuring scalability.",
+       "Enhanced user experience by implementing client-side routing and state management with React Router and Redux.",
+       "Used AWS Lambda for serverless functions, AWS S3 for storage, and MySQL and Redis for data management."
      ],
-     technologies: ["Node.js", "Express", "Heroku"],
-     link: "#"
-   },
-   {
-     title: "Project Three",
-     description: "Another project description.",
-     points: [
-       "Point 1 for Project Three",
-       "Point 2 for Project Three",
-       "Point 3 for Project Three"
-     ],
-     technologies: ["Technology A", "Technology B", "Technology C"],
-     link: "#"
+     technologies: ["React", "NodeJs", "Lambda", "Redis", "Redux", "ExpressJS", "Socket.io","Mongodb","Mysql"],
+     link: "https://onpassive.com"
    }
  ];
 

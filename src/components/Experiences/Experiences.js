@@ -4,7 +4,7 @@ import { experienceList } from '../../Data';
 
 const Experiences = () => {
   return (
-    <div className='Section_bg'>
+    <div id='E_Section'>
       <div className="E_container mt-5" id="experiences">
         <h2 className="section-title">Experiences</h2>
         <div className="timeline">
