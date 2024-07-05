@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Bio/static/css/main.f11b62c2.css",
-    "main.js": "/Bio/static/js/main.0dbc604a.js",
+    "main.js": "/Bio/static/js/main.59a251cc.js",
     "static/media/fa-solid-900.ttf": "/Bio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Bio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/fa-solid-900.woff2": "/Bio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/fa-brands-400.woff2": "/Bio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
     "static/media/fa-regular-400.ttf": "/Bio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
-    "static/media/VenkataNarendra.pdf": "/Bio/static/media/VenkataNarendra.7aea00801e80eba9f55a.pdf",
+    "static/media/VenkataNarendra.pdf": "/Bio/static/media/VenkataNarendra.918e45be2581a5725f95.pdf",
     "static/media/fa-regular-400.woff2": "/Bio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
     "static/media/fa-v4compatibility.ttf": "/Bio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/Bio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/Bio/index.html",
     "main.f11b62c2.css.map": "/Bio/static/css/main.f11b62c2.css.map",
-    "main.0dbc604a.js.map": "/Bio/static/js/main.0dbc604a.js.map"
+    "main.59a251cc.js.map": "/Bio/static/js/main.59a251cc.js.map"
   },
   "entrypoints": [
     "static/css/main.f11b62c2.css",
-    "static/js/main.0dbc604a.js"
+    "static/js/main.59a251cc.js"
   ]
 }
