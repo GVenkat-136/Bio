@@ -52,6 +52,7 @@
 
 .btn-primary:hover {
   background-color: #4d087b;
+  color: #fff;
 }
 
 .btn-secondary {
@@ -64,7 +65,8 @@
 }
 
 .btn-secondary:hover {
-  background-color: #1b5bbf;
+  background-color: #4d087b;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
