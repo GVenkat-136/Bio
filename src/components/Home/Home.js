@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'; // Import CSS for styling
-import Resume from '../../Files/VenkataNarendra.pdf'
+import Resume from '../../Files/VenkataNarendra.pdf';
 import { Bio } from '../../Data';
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   const handleEmail = () => {
-    const emailAddress =Bio?.Email ;
+    const emailAddress = Bio?.Email;
     window.location.href = `mailto:${emailAddress}`;
   };
 
